@@ -7,4 +7,4 @@ This package includes a client solution for showing paginated subscriptions. I w
 (I will provide much better documentation shortly)
 
 1. Install [meteorite](https://github.com/oortcloud/meteorite)
-2. `mrt install datascroll`
+2. `mrt add datascroll`
