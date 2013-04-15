@@ -8,11 +8,12 @@ Package.on_use(function (api) {
     api.add_files([
           'lib/client/meteor.dataScroll.js'
         , 'lib/client/scroller/jquery.zyngaScroller.js'
+        , 'lib/client/scroller/closedhand.cur'
+        , 'lib/client/scroller/openhand.cur'
         , 'lib/client/scroller/base/raf.js'
         , 'lib/client/scroller/base/Animate.js'
         , 'lib/client/scroller/base/Scroller.js'
         , 'lib/client/scroller/base/EasyScroller.js'
-        , 'lib/images/closedhand.cur'
-        , 'lib/images/openhand.cur'
+        , 'lib/client/css/datascroll.css'
     ], 'client');
 });

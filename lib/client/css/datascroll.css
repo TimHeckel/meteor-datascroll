@@ -1,0 +1,10 @@
+.scroller
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-image: url('/images/scroller_bg.png');
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
