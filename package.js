@@ -12,6 +12,9 @@ Package.on_use(function (api) {
         , 'lib/client/scroller/base/Scroller.js'
         , 'lib/client/scroller/base/EasyScroller.js'
         , 'lib/client/datascrollTemplates.html'
-        ,  'lib/client/css/datascroll.css'
+        , 'lib/client/css/datascroll.css'
+        , 'lib/images/bg_scroller.png'
+        , 'lib/images/closedhand.cur'
+        , 'lib/images/openhand.cur'
     ], 'client');
 });

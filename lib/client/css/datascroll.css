@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    background-image: url('/images/scroller_bg.png');
+    background-image: url('/packages/datascroll/lib/images/bg_scroller.png');
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
