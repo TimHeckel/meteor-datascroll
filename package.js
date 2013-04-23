@@ -3,17 +3,15 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    api.use('jquery', 'client');
-    api.use('underscore', 'client');
+    api.use(['jquery', 'underscore', 'templating'], 'client');
     api.add_files([
-          'lib/client/meteor.dataScroll.js'
+         'lib/client/meteor.dataScroll.js'
         , 'lib/client/scroller/jquery.zyngaScroller.js'
-        , 'lib/client/scroller/closedhand.cur'
-        , 'lib/client/scroller/openhand.cur'
         , 'lib/client/scroller/base/raf.js'
         , 'lib/client/scroller/base/Animate.js'
         , 'lib/client/scroller/base/Scroller.js'
         , 'lib/client/scroller/base/EasyScroller.js'
-        , 'lib/client/css/datascroll.css'
+        , 'lib/client/datascrollTemplates.html'
+        ,  'lib/client/css/datascroll.css'
     ], 'client');
 });

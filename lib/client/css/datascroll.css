@@ -8,3 +8,39 @@
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
 }
+
+.scroller-table-contents { 
+	position:relative; 
+	top:0; 
+	width:auto; 
+	table-layout: fixed; 
+	margin-bottom:0px;
+}
+
+.scroller-table-header {
+	table-layout: fixed !important;
+	margin-bottom:0px  !important;
+	width:auto  !important;
+}
+
+.scroller-loading { 
+	background-color: #FFFF99;
+	border: 1px solid #333333;
+	border-radius: 3px 3px 3px 3px;
+	color: #333333;
+	font-size: 14pt;
+	height: 20px;
+	left: 30%;
+	line-height: normal;
+	margin-top: 2px;
+	padding: 5px;
+	position: fixed;
+	text-shadow: none;
+	width: 100px;
+	display:none;
+}
+
+.pagination-button-container {
+	margin-top:3px;
+	padding-right:5px;
+}
