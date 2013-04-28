@@ -7,6 +7,13 @@
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .scroller-table-contents { 
@@ -19,9 +26,18 @@
 
 .scroller-table-header {
 	table-layout: fixed !important;
-	margin-bottom:0px  !important;
+	margin-bottom:0px !important;
 	width:auto  !important;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
+
+.scroller-table-contents td,th,.scroller-table-header td,th { border: none !important; }
 
 .scroller-loading { 
 	background-color: #FFFF99;
