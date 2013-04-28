@@ -3,6 +3,6 @@
     "description": "Meteor kinetic canvas for dynamic data pagination",
     "homepage": "https://github.com/TimHeckel/meteor-datascroll",
     "author": "Tim Heckel  (http://timheckel.com)",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "git": "https://github.com/TimHeckel/meteor-datascroll.git"
 }
